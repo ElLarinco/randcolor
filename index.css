@@ -1,0 +1,17 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1 1 auto;
+}
+.App-header {
+    height: 7rem;
+}
+.navbar {
+    border-bottom: thin solid gainsboro;
+}
+.color-container {
+    min-height: calc(100vh - 7rem);
+}
